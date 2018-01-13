@@ -63,7 +63,7 @@ function nactiOtazku() {
 		str2 += '<br><input id="a" type="radio" name="a" value="a">' + '<span id="aa"> ' + "Pravda" + '</span>';
 		str2 += '<br><input id="b" type="radio" name="a" value="a">' + '<span id="bb"> ' + "Nepravda" + '</span>';
 	} else
-		str2 += '<br><input id="a" type="text" name="a" value="">';
+		str2 += '<br><input id="a" type="text" size="60" name="a" value="">';
 
 	str2 += '<br><br><input id="end" type="button" value="Odpovědět" onclick=check()>' + '</div>';
 	document.getElementById('otazka').innerHTML = str2;

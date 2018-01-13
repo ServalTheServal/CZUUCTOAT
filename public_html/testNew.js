@@ -200,16 +200,250 @@ function checkVybiraci() {
 
 function zalozOtazky() {
 	pridejOtazku(
-			"",
+			"Při účetní uzávěrce se roční obraty nákladových a výnosovách účtu převádejí rovnou na Konečný účet Rozvazný",
 			"Pravda",
 			"Nepravda",
-			"",
+			"Pravda",
 			"vybiraci");
 	pridejOtazku(
+			"Výplata mzdy zaměstantcům v hotovosti je pusobivá operace",
+			"Pravda",
+			"Nepravda",
+			"Nepravda",
+			"vybiraci");
+	pridejOtazku(
+			"Výběr penez z firemniho běžného účtu pro osobní spotřebu je pusobivá operace a účtuje se jako UIP / BU",
+			"Pravda",
+			"Nepravda",
+			"Pravda",
+			"vybiraci");
+	pridejOtazku(
+			"Zaúčtovaná nároku zaměstnanců na hrubé mzdy podle zúčtovací a výplatní listiny je operace působivá",
+			"Pravda",
+			"Nepravda",
+			"Pravda",
+			"vybiraci");
+	pridejOtazku(
+			"Vyskladnění zboží k prodeji v pořizovací ceně je působivá operace",
+			"Pravda",
+			"Nepravda",
+			"Pravda",
+			"vybiraci");
+	pridejOtazku(
+			"Hmotností přírustek zvířat ve výkrmu se účtuje jako:<br>Dospělá zvířata a jejich skupiny/ Změna stavu zvířat",
+			"Pravda",
+			"Nepravda",
+			"Pravda",
+			"vybiraci");
+	pridejOtazku(
+			"Spotřeba osvia ze sklizně minulého roku ( skladová výdejka) se účtuje jako <br>Spotřeba materiálu/ Materiál",
+			"Pravda",
+			"Nepravda",
+			"Nepravda",
+			"vybiraci");
+	pridejOtazku(
+			"Při nákupu , DPH se účtuje na stranu vstupu tj. Na stranu MD",
+			"Pravda",
+			"Nepravda",
+			"Pravda",
+			"vybiraci");
+	pridejOtazku(
+			"Nárok na vrácení DPH od finančního úřadu je v případě kdy strany MD účtu DPH je větší než strana Dal",
+			"Pravda",
+			"Nepravda",
+			"Pravda",
+			"vybiraci");
+	pridejOtazku(
+			"Pokud strana MD u účtu DPH obsahuje částku 1000 a strana Dal 500 jedná se o danový závazek vučí finančnímu úřadu",
+			"Pravda",
+			"Nepravda",
+			"Nepravda",
+			"vybiraci");
+	pridejOtazku(
+			"U plátce DPH, částka DPH se zahrnuje do pořizovací ceny",
+			"Pravda",
+			"Nepravda",
+			"Nepravda",
+			"vybiraci");
+	pridejOtazku(
+			"Účet DPH je výsledkový účet a vykazuje se v Rozvaze",
+			"Pravda",
+			"Nepravda",
+			"Nepravda",
+			"vybiraci");
+	pridejOtazku(
+			"Danová povinnost z titulu DPH vzniká v případě že strana Dal účtu DPH je větší než strana MD",
+			"Pravda",
+			"Nepravda",
+			"Pravda",
+			"vybiraci");
+	pridejOtazku(
+			"Nepůsobivá operace se účtuje na účtehc aktiv a cizího kapitálu",
+			"Pravda",
+			"Nepravda",
+			"Pravda",
+			"vybiraci");
+	pridejOtazku(
+			"Nepusobivá operace se účtuje na rozvahových účtech tj. Na účtech aktiv,cicího kapitálu a vlastního kapitálu",
+			"Pravda",
+			"Nepravda",
+			"Nepravda",
+			"vybiraci");
+	pridejOtazku(
+			"[?] Účet: Změna stavu výrobků může mít kladní a záporný konečný zůstatek. Jestli má kladný zůstatek vykazuje se v aktivech s plusem. Jestli má záporný zůstatek vykazuje se v pasivech s mínusem",
+			"Pravda",
+			"Nepravda",
+			"Nepravda",
+			"vybiraci");
+	pridejOtazku(
+			"[?] Účet“ Změna stavu výrobků“ je nákladový účet. Pokud ale mý záporný zůstatek tak se vykazuje jako výnos",
+			"Pravda",
+			"Nepravda",
+			"Pravda",
+			"vybiraci");
+	pridejOtazku(
+			"[?] Přírustek vlastních zásob na skladě po sklizni se účtuje  Výrobky / Změna stavu výrobků",
+			"Pravda",
+			"Nepravda",
+			"Pravda",
+			"vybiraci");
+	pridejOtazku(
+			"Oprávky k dlouhodébomu majetku jsou kontraaktivní účet a vykazující v rozvaze",
+			"Pravda",
+			"Nepravda",
+			"Pravda",
+			"vybiraci");
+	pridejOtazku(
+			"Zřizovací výdaje patří do dlouhodobého hmotného majetku",
+			"Pravda",
+			"Nepravda",
+			"Nepravda",
+			"vybiraci");
+	pridejOtazku(
+			"Spotřeba materiálu ve výrobním procesu (skladová výdejka)",
 			"",
 			"",
+			"Spotřeba materiálu / Materiál",
+			"psaci");
+	pridejOtazku(
+			"Přijatá Faktura od PRE za spotřebu elektrické energie",
 			"",
 			"",
+			"Spotřeba energie / Dodavatelé",
+			"psaci");
+	pridejOtazku(
+			"Vyskladnění zboží ze skladu z duvodu prodeje (skladová výdejka",
+			"",
+			"",
+			"Prodej zboží / zboží",
+			"psaci");
+	pridejOtazku(
+			"Tržba za zboží v ceně prodejní (vystavení faktury)",
+			"",
+			"",
+			"Odběratelé / Tržby za zboží",
+			"psaci");
+	pridejOtazku(
+			"Nákup zboží na fakturu (přijatá faktura neplátce dph) částka 250kč",
+			"",
+			"",
+			"Zboží / Dodavatelé",
+			"psaci");
+	pridejOtazku(
+			"Doprava nakoupeného zboží vlastní autodoprava",
+			"",
+			"",
+			"Pořízení zboží / Aktivace VP služeb",
+			"psaci");
+	pridejOtazku(
+			"Zúčtovaní nároku zaměstnanců na hrubé mzdy dle účtovací a výplatní listiny",
+			"",
+			"",
+			"Mzdové náklady / Zaměstnanci",
+			"psaci");
+	pridejOtazku(
+			"Srážka ze mzdy zaměstnanců na sociální a zdravotní pojištění podle ZVL",
+			"",
+			"",
+			"Zaměstnanci / Zúčtování s ISZ pojištení",
+			"psaci");
+	pridejOtazku(
+			"Srážka záloha na dan z přijmů zamšstnanců ze závislé činnosti podle ZVL",
+			"",
+			"",
+			"Zaměstnanci / Ostatní přímé daně",
+			"psaci");
+	pridejOtazku(
+			"Přepis odvodu sociálního a zdravotní pojištění hrazené zamšstnavatelem za své zamšstnance",
+			"",
+			"",
+			"Zákonné SZ pojištení / Zúčtování s ISZ pojištení",
+			"psaci");
+	pridejOtazku(
+			"Zúčtování ročního odpisu dostihového koně nepřimou metodou odpisovaní (odpisová plán)",
+			"",
+			"",
+			"Odpisy / Oprávky k DHM",
+			"psaci");
+	pridejOtazku(
+			"Přijatá faktura za převoz zakoupeného stroje od dodavatele",
+			"",
+			"",
+			"Pořízení DHM / Dodavatelé",
+			"psaci");
+	pridejOtazku(
+			"Zařazení zakoupeného služebního automobilu do užívání v podniku",
+			"",
+			"",
+			"DHM / Pořízení DHM",
+			"psaci");
+	pridejOtazku(
+			"Vyskladnění služebního automobilu k prodeji v zůstatkové ceně ",
+			"",
+			"",
+			"ZC prodaného DHM / Oprávky k DHM",
+			"psaci");
+	pridejOtazku(
+			"[?] Vyřazení častečně odepsaného služebního automobilu z důvodu krádeže – zúčtovaní zůstatkové ceny",
+			"",
+			"",
+			"Oprávky k DHM / HMV ",
+			"psaci");
+	pridejOtazku(
+			"Prodej nepotřebného strone odvěratelům za hotové ",
+			"",
+			"",
+			"Pokladna / Tržby z prodeje DM",
+			"psaci");
+	pridejOtazku(
+			"Úbytek zboží v rámci norem přirazovanách úbytků ",
+			"",
+			"",
+			"Prodané zboží / Zboží",
+			"psaci");
+	pridejOtazku(
+			"Záviněný úbytek materilu nad rámce norem přirozených úbytků",
+			"",
+			"",
+			"Manka a škody / Materiál",
+			"psaci");
+	pridejOtazku(
+			"Nákup materiálu na fakturu způsobem A",
+			"",
+			"",
+			"Pořízení materiálu / Dodavatelé",
+			"psaci");
+	pridejOtazku(
+			"Doprava nakoupeného zboží na fakturu zpusobem A",
+			"",
+			"",
+			"Pořízení zboží / Dodavatelé",
+			"psaci");
+	pridejOtazku(
+			"Prodej materiálu na fakturu v prodejní ceně",
+			"",
+			"",
+			"Odběratelé / Tržby za zboží",
 			"psaci");
 }
 

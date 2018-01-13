@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+	<title>Základy účetnictví | Test</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+
+	    body {
+		margin-left:auto;
+		margin-right:auto;
+		width:960px;
+		border-left: 1px solid lightgray;
+		border-bottom-left-radius: 3em;
+		border-bottom-right-radius: 3em;
+		border-right: 1px solid lightgray;
+
+		height: 100%;
+
+		padding-bottom: 50px
+	    }
+
+	    div.pad {
+		padding-left: 15px;
+	    }
+
+	    ul.nav {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #333;
+	    }
+
+	    li.nav {
+		float: left;
+		border-right:1px solid #bbb;
+	    }
+
+	    li.nav:last-child {
+		border-right: none;
+	    }
+
+	    li.nav a {
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	    }
+
+	    li.nav a:hover:not(.active) {
+		background-color: #111;
+	    }
+
+	    .active {
+		background-color: #4CAF50;
+	    }
+	</style>
+	<script src="test.js"></script>
+    </head>
+    <body>
+	<ul class="nav">
+	    <li class="nav"><a href="index.html">Info</a></li>
+	    <li class="nav"><a class="active" href="test.html">Test</a></li>
+	    <li class="nav"><a href="test2.html">Test2</a></li>
+	</ul>
+	<div class='pad'>
+	    <h1>Test</h1>
+
+	    <span id="start"><button onclick="start()">Start</button></span>
+
+	    <p style="visibility: hidden" id="otazkaCislo"></p>
+	    <p style="visibility: hidden" id="otazka"></p>
+	    <br>
+
+	    <p id="check"></p>
+
+	    <button style="visibility:hidden" id="dalsi" type="button" onclick= nactiOtazku()>Další</button>
+	</div>
+    </body>
+</html>

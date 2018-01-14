@@ -335,7 +335,7 @@ function zalozOtazky() {
 			"Vyskladnění zboží ze skladu z duvodu prodeje (skladová výdejka",
 			"",
 			"",
-			"Prodej zboží / zboží",
+			"Prodané zboží / Zboží",
 			"psaci");
 	pridejOtazku(
 			"Tržba za zboží v ceně prodejní (vystavení faktury)",
@@ -377,7 +377,7 @@ function zalozOtazky() {
 			"Přepis odvodu sociálního a zdravotní pojištění hrazené zamšstnavatelem za své zamšstnance",
 			"",
 			"",
-			"Zákonné SZ pojištení / Zúčtování s ISZ pojištení",
+			"Zákonné SZ pojištění / Zúčtování s ISZ pojištění",
 			"psaci");
 	pridejOtazku(
 			"Zúčtování ročního odpisu dostihového koně nepřimou metodou odpisovaní (odpisová plán)",

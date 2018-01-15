@@ -443,7 +443,7 @@ function zalozOtazky() {
 			"Prodej materiálu na fakturu v prodejní ceně",
 			"",
 			"",
-			"Odběratelé / Tržby za zboží",
+			"Odběratelé / Tržby z prodeje materiálu",
 			"psaci");
 }
 

@@ -203,7 +203,7 @@ function zalozOtazky() {
 			"Při účetní uzávěrce se roční obraty nákladových a výnosovách účtu převádejí rovnou na Konečný účet Rozvazný",
 			"Pravda",
 			"Nepravda",
-			"Pravda",
+			"Nepravda",
 			"vybiraci");
 	pridejOtazku(
 			"Výplata mzdy zaměstantcům v hotovosti je pusobivá operace",

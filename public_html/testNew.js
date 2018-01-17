@@ -362,7 +362,7 @@ function zalozOtazky() {
 			"Mzdové náklady / Zaměstnanci",
 			"psaci");
 	pridejOtazku(
-			"Srážka ze mzdy zaměstnanců na sociální a zdravotní pojištění podle ZVL",
+			"Srážka ze mzdy zaměstnanců na sociální a zdravotní pojištění podle ZVL (hrazené zaměstnancem)",
 			"",
 			"",
 			"Zaměstnanci / Zúčtování s ISZ pojištení",

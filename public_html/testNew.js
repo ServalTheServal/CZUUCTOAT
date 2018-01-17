@@ -395,7 +395,7 @@ function zalozOtazky() {
 			"Zařazení zakoupeného služebního automobilu do užívání v podniku",
 			"",
 			"",
-			"DHM / Pořízení DHM",
+			"HMV / Pořízení DHM",
 			"psaci");
 	pridejOtazku(
 			"Vyskladnění služebního automobilu k prodeji v zůstatkové ceně ",
